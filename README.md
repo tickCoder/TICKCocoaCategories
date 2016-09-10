@@ -1,0 +1,2 @@
+# TICKCocoaCategories
+Categories for iOS.
