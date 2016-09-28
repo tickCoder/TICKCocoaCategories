@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIButton+TICKRound.h
 //  TICKCocoaCategories
 //
 //  Created by Claris on 2016.09.10.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface UIButton (TICKRound)
+- (void)tick_makeButtonRound;
 @end
-

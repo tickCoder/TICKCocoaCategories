@@ -9,10 +9,28 @@
 /* Begin PBXBuildFile section */
 		4F15101A1D83F21200354852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1510191D83F21200354852 /* main.m */; };
 		4F15101D1D83F21200354852 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F15101C1D83F21200354852 /* AppDelegate.m */; };
-		4F1510201D83F21200354852 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F15101F1D83F21200354852 /* ViewController.m */; };
 		4F1510231D83F21200354852 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1510211D83F21200354852 /* Main.storyboard */; };
 		4F1510251D83F21200354852 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F1510241D83F21200354852 /* Assets.xcassets */; };
 		4F1510281D83F21200354852 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1510261D83F21200354852 /* LaunchScreen.storyboard */; };
+		4F6154201D83FD940088E3EA /* NSArray+TICKArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61541F1D83FD940088E3EA /* NSArray+TICKArchive.m */; };
+		4F6154231D83FF5B0088E3EA /* NSDictionary+TICKArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6154221D83FF5B0088E3EA /* NSDictionary+TICKArchive.m */; };
+		4F6154261D8401240088E3EA /* UIView+TICKEaseInOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6154251D8401240088E3EA /* UIView+TICKEaseInOut.m */; };
+		4F6154291D8406D00088E3EA /* NSDictionary+TICKSortedKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6154281D8406D00088E3EA /* NSDictionary+TICKSortedKeys.m */; };
+		4F61542C1D84087E0088E3EA /* NSString+TICKURLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61542B1D84087E0088E3EA /* NSString+TICKURLEncode.m */; };
+		4F61542F1D840AD80088E3EA /* UIColor+TICKHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61542E1D840AD80088E3EA /* UIColor+TICKHex.m */; };
+		4F6154321D840AE60088E3EA /* UIColor+TICKRGBA.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6154311D840AE60088E3EA /* UIColor+TICKRGBA.m */; };
+		4F6154351D840FA80088E3EA /* UIImage+TICKScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6154341D840FA80088E3EA /* UIImage+TICKScale.m */; };
+		4F6154381D8412B40088E3EA /* UIImage+TICKSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6154371D8412B40088E3EA /* UIImage+TICKSave.m */; };
+		4F61543B1D8413550088E3EA /* UIImage+TICKCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61543A1D8413550088E3EA /* UIImage+TICKCrop.m */; };
+		4F61543E1D84145C0088E3EA /* UIImage+TICKSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61543D1D84145C0088E3EA /* UIImage+TICKSnapshot.m */; };
+		4F6154411D84154B0088E3EA /* UIImage+TICKFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6154401D84154B0088E3EA /* UIImage+TICKFile.m */; };
+		4F6154441D8416BA0088E3EA /* UIImageView+TICKTintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6154431D8416BA0088E3EA /* UIImageView+TICKTintColor.m */; };
+		4F6154771D8446EB0088E3EA /* UIButton+TICKRound.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6154761D8446EB0088E3EA /* UIButton+TICKRound.m */; };
+		4F61547A1D844AFB0088E3EA /* NSString+TICKCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6154791D844AFB0088E3EA /* NSString+TICKCheck.m */; };
+		4F61547E1D84507D0088E3EA /* UIButton_Round_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61547D1D84507D0088E3EA /* UIButton_Round_ViewController.m */; };
+		4F6154811D845AD70088E3EA /* NSArrayDictArchiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6154801D845AD70088E3EA /* NSArrayDictArchiveViewController.m */; };
+		4F6154841D845E290088E3EA /* UIImage+TICKColorMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6154831D845E290088E3EA /* UIImage+TICKColorMode.m */; };
+		4FF06CB31D86EDCA0092BA33 /* UIImage_ColorMode_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF06CB21D86EDCA0092BA33 /* UIImage_ColorMode_ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +38,48 @@
 		4F1510191D83F21200354852 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F15101B1D83F21200354852 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4F15101C1D83F21200354852 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4F15101E1D83F21200354852 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4F15101F1D83F21200354852 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4F1510221D83F21200354852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F1510241D83F21200354852 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F1510271D83F21200354852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F1510291D83F21200354852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F61541E1D83FD940088E3EA /* NSArray+TICKArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+TICKArchive.h"; sourceTree = "<group>"; };
+		4F61541F1D83FD940088E3EA /* NSArray+TICKArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+TICKArchive.m"; sourceTree = "<group>"; };
+		4F6154211D83FF5B0088E3EA /* NSDictionary+TICKArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TICKArchive.h"; sourceTree = "<group>"; };
+		4F6154221D83FF5B0088E3EA /* NSDictionary+TICKArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TICKArchive.m"; sourceTree = "<group>"; };
+		4F6154241D8401240088E3EA /* UIView+TICKEaseInOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TICKEaseInOut.h"; sourceTree = "<group>"; };
+		4F6154251D8401240088E3EA /* UIView+TICKEaseInOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TICKEaseInOut.m"; sourceTree = "<group>"; };
+		4F6154271D8406D00088E3EA /* NSDictionary+TICKSortedKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TICKSortedKeys.h"; sourceTree = "<group>"; };
+		4F6154281D8406D00088E3EA /* NSDictionary+TICKSortedKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TICKSortedKeys.m"; sourceTree = "<group>"; };
+		4F61542A1D84087E0088E3EA /* NSString+TICKURLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TICKURLEncode.h"; sourceTree = "<group>"; };
+		4F61542B1D84087E0088E3EA /* NSString+TICKURLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TICKURLEncode.m"; sourceTree = "<group>"; };
+		4F61542D1D840AD80088E3EA /* UIColor+TICKHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TICKHex.h"; sourceTree = "<group>"; };
+		4F61542E1D840AD80088E3EA /* UIColor+TICKHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TICKHex.m"; sourceTree = "<group>"; };
+		4F6154301D840AE60088E3EA /* UIColor+TICKRGBA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TICKRGBA.h"; sourceTree = "<group>"; };
+		4F6154311D840AE60088E3EA /* UIColor+TICKRGBA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TICKRGBA.m"; sourceTree = "<group>"; };
+		4F6154331D840FA80088E3EA /* UIImage+TICKScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TICKScale.h"; sourceTree = "<group>"; };
+		4F6154341D840FA80088E3EA /* UIImage+TICKScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TICKScale.m"; sourceTree = "<group>"; };
+		4F6154361D8412B40088E3EA /* UIImage+TICKSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TICKSave.h"; sourceTree = "<group>"; };
+		4F6154371D8412B40088E3EA /* UIImage+TICKSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TICKSave.m"; sourceTree = "<group>"; };
+		4F6154391D8413550088E3EA /* UIImage+TICKCrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TICKCrop.h"; sourceTree = "<group>"; };
+		4F61543A1D8413550088E3EA /* UIImage+TICKCrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TICKCrop.m"; sourceTree = "<group>"; };
+		4F61543C1D84145C0088E3EA /* UIImage+TICKSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TICKSnapshot.h"; sourceTree = "<group>"; };
+		4F61543D1D84145C0088E3EA /* UIImage+TICKSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TICKSnapshot.m"; sourceTree = "<group>"; };
+		4F61543F1D84154B0088E3EA /* UIImage+TICKFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TICKFile.h"; sourceTree = "<group>"; };
+		4F6154401D84154B0088E3EA /* UIImage+TICKFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TICKFile.m"; sourceTree = "<group>"; };
+		4F6154421D8416BA0088E3EA /* UIImageView+TICKTintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+TICKTintColor.h"; sourceTree = "<group>"; };
+		4F6154431D8416BA0088E3EA /* UIImageView+TICKTintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+TICKTintColor.m"; sourceTree = "<group>"; };
+		4F6154751D8446EB0088E3EA /* UIButton+TICKRound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TICKRound.h"; sourceTree = "<group>"; };
+		4F6154761D8446EB0088E3EA /* UIButton+TICKRound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TICKRound.m"; sourceTree = "<group>"; };
+		4F6154781D844AFB0088E3EA /* NSString+TICKCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TICKCheck.h"; sourceTree = "<group>"; };
+		4F6154791D844AFB0088E3EA /* NSString+TICKCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TICKCheck.m"; sourceTree = "<group>"; };
+		4F61547C1D84507D0088E3EA /* UIButton_Round_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButton_Round_ViewController.h; sourceTree = "<group>"; };
+		4F61547D1D84507D0088E3EA /* UIButton_Round_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButton_Round_ViewController.m; sourceTree = "<group>"; };
+		4F61547F1D845AD70088E3EA /* NSArrayDictArchiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayDictArchiveViewController.h; sourceTree = "<group>"; };
+		4F6154801D845AD70088E3EA /* NSArrayDictArchiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayDictArchiveViewController.m; sourceTree = "<group>"; };
+		4F6154821D845E290088E3EA /* UIImage+TICKColorMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TICKColorMode.h"; sourceTree = "<group>"; };
+		4F6154831D845E290088E3EA /* UIImage+TICKColorMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TICKColorMode.m"; sourceTree = "<group>"; };
+		4FF06CB11D86EDCA0092BA33 /* UIImage_ColorMode_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImage_ColorMode_ViewController.h; sourceTree = "<group>"; };
+		4FF06CB21D86EDCA0092BA33 /* UIImage_ColorMode_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImage_ColorMode_ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +112,10 @@
 		4F1510171D83F21200354852 /* TICKCocoaCategories */ = {
 			isa = PBXGroup;
 			children = (
+				4F61547B1D84505A0088E3EA /* Demos */,
+				4F6154151D83FD760088E3EA /* TICKCocoaCategories */,
 				4F15101B1D83F21200354852 /* AppDelegate.h */,
 				4F15101C1D83F21200354852 /* AppDelegate.m */,
-				4F15101E1D83F21200354852 /* ViewController.h */,
-				4F15101F1D83F21200354852 /* ViewController.m */,
 				4F1510211D83F21200354852 /* Main.storyboard */,
 				4F1510241D83F21200354852 /* Assets.xcassets */,
 				4F1510261D83F21200354852 /* LaunchScreen.storyboard */,
@@ -77,6 +131,122 @@
 				4F1510191D83F21200354852 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F6154151D83FD760088E3EA /* TICKCocoaCategories */ = {
+			isa = PBXGroup;
+			children = (
+				4F6154161D83FD760088E3EA /* NSArray */,
+				4F6154171D83FD760088E3EA /* NSDictionary */,
+				4F6154181D83FD760088E3EA /* NSString */,
+				4F6154191D83FD760088E3EA /* UIButton */,
+				4F61541A1D83FD760088E3EA /* UIColor */,
+				4F61541B1D83FD760088E3EA /* UIImage */,
+				4F61541C1D83FD760088E3EA /* UIImageView */,
+				4F61541D1D83FD760088E3EA /* UIView */,
+			);
+			path = TICKCocoaCategories;
+			sourceTree = "<group>";
+		};
+		4F6154161D83FD760088E3EA /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				4F61541E1D83FD940088E3EA /* NSArray+TICKArchive.h */,
+				4F61541F1D83FD940088E3EA /* NSArray+TICKArchive.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		4F6154171D83FD760088E3EA /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				4F6154211D83FF5B0088E3EA /* NSDictionary+TICKArchive.h */,
+				4F6154221D83FF5B0088E3EA /* NSDictionary+TICKArchive.m */,
+				4F6154271D8406D00088E3EA /* NSDictionary+TICKSortedKeys.h */,
+				4F6154281D8406D00088E3EA /* NSDictionary+TICKSortedKeys.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		4F6154181D83FD760088E3EA /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				4F61542A1D84087E0088E3EA /* NSString+TICKURLEncode.h */,
+				4F61542B1D84087E0088E3EA /* NSString+TICKURLEncode.m */,
+				4F6154781D844AFB0088E3EA /* NSString+TICKCheck.h */,
+				4F6154791D844AFB0088E3EA /* NSString+TICKCheck.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		4F6154191D83FD760088E3EA /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				4F6154751D8446EB0088E3EA /* UIButton+TICKRound.h */,
+				4F6154761D8446EB0088E3EA /* UIButton+TICKRound.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		4F61541A1D83FD760088E3EA /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				4F61542D1D840AD80088E3EA /* UIColor+TICKHex.h */,
+				4F61542E1D840AD80088E3EA /* UIColor+TICKHex.m */,
+				4F6154301D840AE60088E3EA /* UIColor+TICKRGBA.h */,
+				4F6154311D840AE60088E3EA /* UIColor+TICKRGBA.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		4F61541B1D83FD760088E3EA /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				4F6154331D840FA80088E3EA /* UIImage+TICKScale.h */,
+				4F6154341D840FA80088E3EA /* UIImage+TICKScale.m */,
+				4F6154361D8412B40088E3EA /* UIImage+TICKSave.h */,
+				4F6154371D8412B40088E3EA /* UIImage+TICKSave.m */,
+				4F6154391D8413550088E3EA /* UIImage+TICKCrop.h */,
+				4F61543A1D8413550088E3EA /* UIImage+TICKCrop.m */,
+				4F61543C1D84145C0088E3EA /* UIImage+TICKSnapshot.h */,
+				4F61543D1D84145C0088E3EA /* UIImage+TICKSnapshot.m */,
+				4F61543F1D84154B0088E3EA /* UIImage+TICKFile.h */,
+				4F6154401D84154B0088E3EA /* UIImage+TICKFile.m */,
+				4F6154821D845E290088E3EA /* UIImage+TICKColorMode.h */,
+				4F6154831D845E290088E3EA /* UIImage+TICKColorMode.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		4F61541C1D83FD760088E3EA /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				4F6154421D8416BA0088E3EA /* UIImageView+TICKTintColor.h */,
+				4F6154431D8416BA0088E3EA /* UIImageView+TICKTintColor.m */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		4F61541D1D83FD760088E3EA /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				4F6154241D8401240088E3EA /* UIView+TICKEaseInOut.h */,
+				4F6154251D8401240088E3EA /* UIView+TICKEaseInOut.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		4F61547B1D84505A0088E3EA /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				4F61547C1D84507D0088E3EA /* UIButton_Round_ViewController.h */,
+				4F61547D1D84507D0088E3EA /* UIButton_Round_ViewController.m */,
+				4F61547F1D845AD70088E3EA /* NSArrayDictArchiveViewController.h */,
+				4F6154801D845AD70088E3EA /* NSArrayDictArchiveViewController.m */,
+				4FF06CB11D86EDCA0092BA33 /* UIImage_ColorMode_ViewController.h */,
+				4FF06CB21D86EDCA0092BA33 /* UIImage_ColorMode_ViewController.m */,
+			);
+			path = Demos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +320,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F1510201D83F21200354852 /* ViewController.m in Sources */,
+				4F61543B1D8413550088E3EA /* UIImage+TICKCrop.m in Sources */,
+				4FF06CB31D86EDCA0092BA33 /* UIImage_ColorMode_ViewController.m in Sources */,
+				4F6154411D84154B0088E3EA /* UIImage+TICKFile.m in Sources */,
+				4F61542F1D840AD80088E3EA /* UIColor+TICKHex.m in Sources */,
+				4F61547E1D84507D0088E3EA /* UIButton_Round_ViewController.m in Sources */,
+				4F6154811D845AD70088E3EA /* NSArrayDictArchiveViewController.m in Sources */,
+				4F61543E1D84145C0088E3EA /* UIImage+TICKSnapshot.m in Sources */,
+				4F6154231D83FF5B0088E3EA /* NSDictionary+TICKArchive.m in Sources */,
+				4F6154201D83FD940088E3EA /* NSArray+TICKArchive.m in Sources */,
+				4F6154441D8416BA0088E3EA /* UIImageView+TICKTintColor.m in Sources */,
+				4F61542C1D84087E0088E3EA /* NSString+TICKURLEncode.m in Sources */,
+				4F6154351D840FA80088E3EA /* UIImage+TICKScale.m in Sources */,
+				4F6154291D8406D00088E3EA /* NSDictionary+TICKSortedKeys.m in Sources */,
+				4F61547A1D844AFB0088E3EA /* NSString+TICKCheck.m in Sources */,
+				4F6154841D845E290088E3EA /* UIImage+TICKColorMode.m in Sources */,
+				4F6154321D840AE60088E3EA /* UIColor+TICKRGBA.m in Sources */,
 				4F15101D1D83F21200354852 /* AppDelegate.m in Sources */,
 				4F15101A1D83F21200354852 /* main.m in Sources */,
+				4F6154771D8446EB0088E3EA /* UIButton+TICKRound.m in Sources */,
+				4F6154261D8401240088E3EA /* UIView+TICKEaseInOut.m in Sources */,
+				4F6154381D8412B40088E3EA /* UIImage+TICKSave.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
